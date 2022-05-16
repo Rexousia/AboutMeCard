@@ -15,13 +15,13 @@
   <body>
     <section id="assignment">
       <!-- 1) Output your name -->
-      <h2 v-model="name">{{ name }}</h2>
+      <h2>{{ name }}</h2>
       <!-- 2) Output your age -->
-      <p v-model="age">{{ age }}</p>
+      <p>{{ age }}</p>
       <!-- 3) Output your age + 5 -->
-      <p v-model="agePlus5">{{ agePlus5 }}</p>
+      <p>{{ agePlus5 }} in 5 years</p>
       <!-- 4) Output a random number (0 to 1) -->
-      <p>{{ ranNumber() }}</p>
+      <p>Favorite Number: {{ ranNumber() }}</p>
       <div>
         <!-- 5) Display some image you found via Google -->
         <img v-bind:src="imgSrc" />
